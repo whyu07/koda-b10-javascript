@@ -7,7 +7,7 @@ console.log(luas);
 console.log(keliling);
 
 
-## IF ELSE
+// Percabangan Menghitung Luas atau Keliling
 
 let r = 100;
 let kondisi = 'luas';
