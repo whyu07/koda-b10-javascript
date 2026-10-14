@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD 
     A([Mulai]) --> B[/Jari-Jari/]
     B --> Luas{"π * r * r"}
@@ -7,3 +8,4 @@ flowchart TD
     Keliling --> E[/Cetak Hasil Keliling/] --> Z
     
     Z([Selesai])
+```
