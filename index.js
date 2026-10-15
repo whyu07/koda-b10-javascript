@@ -12,26 +12,26 @@ function hitung(r, kondisi) {
         hasil = keliling;
         return hasil
     } else {
-        console.log('hasil yg benar bukan angka');
+        console.log('Tulis angka');
     }
 } 
-console.log(hitung(50, 'luas'));
+console.log(parseInt(hitung(50, 'keliling')));
  
 //Function Pure
 function hitung2() {
     let hasil;  
-    let r = 5;
+    let r = 50;
     let kondisi = 'keliling';
     if (kondisi === 'luas') {
         let hasilLuas = 3.14 * r * r;
         hasil = hasilLuas;
-        console.log(hasil);
+        console.log(parseInt(hasil));
     } else if (kondisi === 'keliling') {
         let keliling = 2 * 3.14 * r;
         hasil = keliling;
-        console.log(hasil);
+        console.log(parseInt(hasil));
     } else {
-        console.log('hasil yg benar bukan angka');
+        console.log('Tulis angka');
     }
 }
 hitung2();
