@@ -1,26 +1,35 @@
-let r = 10;
+function hitung(r, kondisi) {
+    let hasil;
+    if (kondisi === 'luas') {
+        let hasilLuas = Math.PI * r * r;
+        hasil = hasilLuas;
+        return hasil;
+    } else if (kondisi === 'keliling') {
+        let keliling = 2 * Math.PI * r;
+        hasil = keliling;
+        return hasil
+    } else {
+        console.log('hasil yg benar bukan angka');
+    }
+} 
 
-let luas = Math.PI * r * r;
-let keliling = 2 * Math.PI * r;
+console.log(hitung(20, 'luas'));
 
-console.log(luas);
-console.log(keliling);
-
-
-// Percabangan Menghitung Luas atau Keliling
-
-let r = 100;
-let kondisi = 'luas';
-let luas = Math.PI * r * r;
-let keliling = 2 * Math.PI * r;
-
-if (kondisi === 'luas') {
-    hasilLuas = luas;
-    hasil = hasilLuas;
-} else if (kondisi === 'keliling') {
-    hasilKeliling = keliling;
-    hasil = hasilKeliling;
-} else {
-    console.log('Masukan  yang ingin di hitung')
+function hitung2() {
+    let hasil; 
+    let r = 5;
+    let kondisi = 'keliling';
+    if (kondisi === 'luas') {
+        let hasilLuas = Math.PI * r * r;
+        hasil = hasilLuas;
+        console.log(hasil);
+    } else if (kondisi === 'keliling') {
+        let keliling = 2 * Math.PI * r;
+        hasil = keliling;
+        console.log(hasil);
+    } else {
+        console.log('hasil yg benar bukan angka');
+    }
 }
-console.log(hasil)
+
+hitung2();
