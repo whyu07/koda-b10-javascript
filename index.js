@@ -1,3 +1,4 @@
+// Function Impure
 function hitung(r, kondisi) {
     let hasil;
     if (kondisi === 'luas') {
@@ -15,6 +16,7 @@ function hitung(r, kondisi) {
 
 console.log(hitung(20, 'luas'));
 
+//Function Pure
 function hitung2() {
     let hasil; 
     let r = 5;
