@@ -9,6 +9,6 @@ flowchart TD
     E --> H[/Cetak Keliling/]
     H --> X[/Hasil/]
     G --> X
+    F --> Z
     X --> Z([Selesai])
-
 ```
